@@ -1,14 +1,16 @@
 import React from 'react'
 
 
+
 const BodyData = ({item, image}) =>{
 
     return(
-        <div class="card">
-        <img src="images/ladies1.jpg" class="card-img-top" alt="Purse"/>
+        <div class="card" style={{width:'9rem', height:'18rem', marginTop:'50px', marginRight:'5rem'}}>
+        <img src={image} class="card-img-top" alt="" style={{height:"8rem"}}/>
         <div class="card-body" style={{textAlign:'center'}}>
-          <h5 class="card-title">{item}</h5>
-          <a href="#" class="btn btn-primary">Cart</a>
+          <h6 class="card-title">{item}</h6>
+          <h6 style={{textAlign:'center'}}><small>1pc</small></h6>
+          <a href="#" class="btn btn-primary" style={{width:'100px'}}>Cart</a>
         </div>
       </div>
     );

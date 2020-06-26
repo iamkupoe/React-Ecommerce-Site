@@ -19,7 +19,7 @@ const Body = () => {
     return(
        <div className="row">
            <div className="col-2">
-           <BodyData item="Ladies Stylish Purse"
+           <BodyData item="Stylish Purse"
            image={purse}/>
            
            </div>
@@ -40,7 +40,7 @@ const Body = () => {
            </div> 
 
            <div className="col-2">
-           <BodyData item="Ladies Shoulder Bag"
+           <BodyData item=" Shoulder Bag"
            image={ladiesbag}/>
            </div> 
 
@@ -60,7 +60,7 @@ const Body = () => {
            </div> 
 
            <div className="col-2">
-           <BodyData item="Ladies Portable Bag"
+           <BodyData item="Portable Bag"
            image={shoulder}/>
            </div> 
 

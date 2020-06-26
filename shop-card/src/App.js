@@ -8,11 +8,15 @@ import Body from './Components/Body'
 
 
 
-
+const carts = () => {
+  alert('Welcome to our shop')
+}
 
 function App() {
   return (
-    <div className="container">
+    <>
+    <button onClick={carts} style={{textAlign:'center', marginLeft:'550px', marginTop:'50px', background:'hotpink', borderRadius:'50px', fontSize:'2em', boxShadow:'5px 10px', borderColor:'none'}}>Kasenagirl Online</button>
+    <div className="container" style={{fontFamily:'Inconsolata'}}>
       <div className="row">
         <div className="col-2">
         <Sidebar/>
@@ -22,7 +26,7 @@ function App() {
         </div>
       </div>
     </div>
-    
+    </>
   );
 }
 
